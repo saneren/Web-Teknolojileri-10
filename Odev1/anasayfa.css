@@ -1,0 +1,87 @@
+html
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+}
+.background-class
+{
+    background: rgb(241,198,217);
+    background: radial-gradient(circle, rgba(241,198,217,0.5) 0%, rgba(148,187,233,1) 100%);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#general-header:hover
+{
+    transition-duration: 5s;
+    background-color:tan ;
+    color: white;
+}
+.container
+{
+    background-color: darkseagreen;
+    border-radius: 5vw;
+    margin-left: 27.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.blog-foto-second
+{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 3vw;
+    margin-left: 10vw;
+    border: 2px solid darkmagenta;
+}
+#fifa-photo
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 1.5vw;
+}
+a
+{
+    color: #146494;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #146494;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#paragraph-link
+{
+   color: darkmagenta;
+}
+.general-section-paragraph
+{
+    margin-right: 10vw;
+    margin-top: 3vw;
+    margin-left: 10vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: justify;
+}
+.paragraph-strong
+{
+    margin-left: 25px;
+}
+.general-article-paragraph
+{
+    margin-left: 10vw;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(17, 17, 90);
+    text-align: justify;
+}
+input
+{
+    width: 15%;
+}

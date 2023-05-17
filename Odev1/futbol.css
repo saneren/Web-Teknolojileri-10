@@ -1,0 +1,59 @@
+.container
+{
+    margin-top: 2vw;
+}
+.header
+{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-top: 0.25vw;
+    margin-bottom: 1vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    color: #333;
+}
+body
+{
+    background: #858585;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1vw;
+    margin-right: 2vw;
+    
+}
+#paragraph-img
+{
+    text-align: center;
+}
+#paragraph-img img
+{
+    width: 50%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0.5vw 0.2vw  #333;
+
+}
+#vodafone-park
+{
+    width: 25%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#paragraph-second
+{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.paragraph-span
+{
+    color: darkred;
+}
+a{color: midnightblue;}
+a:hover{color: midnightblue;}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iletisim.js">
+    <link rel="stylesheet" href="iletişim.php">
+    <title>İletişim</title>
+</head>
+
+<body>
+    </div>
+    <div class="container" id="forms">
+        <div class="row">
+            <div class="col-lg">İletişim <br></div>
+
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-lg">
+                <form action="" method="post" id="form" name="form">
+                    <div>
+                        <label for="name">İsminiz:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for=" password">Şifreniz:</label>
+                        <input type="password" name="password" id="password" />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Hangi programlama dilini seviyorsunuz?(şifre kontrol)</label><br>
+                        <input type="radio" id="programming" name="fav_language" value="c++">
+                        <label for="c++">C++</label><br>
+                        <input type="radio" id="programming" name="fav_language" value="JS">
+                        <label for="js">JS</label><br>
+                        <input type="radio" id="programming" name="fav_language" value="python">
+                        <label for="python">Python</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="renk">Hangi renk(ler)i seviyorsunuz?(şifre kontrol)</label><br>
+                        <input type="checkbox" id="color" name="renk1" value="mavi">
+                        <label for="vehicle1"> Mavi</label><br>
+                        <input type="checkbox" id="color" name="renk2" value="yesil">
+                        <label for="vehicle2"> Yeşil</label><br>
+                        <input type="checkbox" id="color" name="renk3" value="kirmizi">
+                        <label for="vehicle3"> Kırmızı</label><br><br>
+                    </div>
+                    <div>
+                        <label for="option">Hangi konu hakkında soru soracaksınız?</label>
+                        <select name="dropdown">
+                            <option value="programming" id="option">Programlama</option>
+                            <option value="design" id="option">Tasarım</option>
+                            <option value="education" id="option">Eğitim</option>
+                            <option value="other" selected id="option">Diğer</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <div>
+                        <label for="description">Sorunuzu yazınız...</label>
+                        <br>
+                        <textarea rows="5" cols="50" name="description" id="description"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Gönder" id="gonder" onclick="fncSubmit()">
+                        <input type="reset" value="Temizle" id="temizle">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <a href="iletisim-bilgileri.html">Bilgiler için tıklayın</a>
+
+    <script>
+        function fncSubmit() {
+
+            const form = document.getElementById('form');
+
+            var name = document.getElementById("name").value;
+            var password = document.getElementById("password").value;
+            var email = document.getElementById("email").value;
+            var programmnig = document.getElementById("programming").value;
+            var color = document.getElementById("color").value;
+            var option = document.getElementById("option").value;
+            var description = document.getElementById("description").value;
+
+            form.addEventListener('submit', (e) => {
+                if (name === '' || name == null) {
+                    e.preventDefault();
+                }
+                else if (password === '' || password == null) {
+                    e.preventDefault();
+                }
+                else if (email === '' || email == null) {
+                    e.preventDefault();
+                }
+                else {
+                         window.location.href("localhost/Odev1/iletisim-bilgieri.html");
+                }
+            })
+            localStorage.setItem("txtValue", name);
+            localStorage.setItem("txtValue2", email);
+            localStorage.setItem("txtValue3", password);
+            localStorage.setItem("txtValue4", programmnig);
+            localStorage.setItem("txtValue5", color);
+            localStorage.setItem("txtValue6", option);
+            localStorage.setItem("txtValue7", description);
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+html
+{
+    margin: 0;    
+}
+.background
+{
+    background: linear-gradient(lightcyan,white);
+
+}
+#header-container-id
+{
+    justify-content: start;
+}
+.main-header
+{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    color: darkmagenta;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    
+}
+.container-lists
+{
+    margin-top: 1vw;
+    background: linear-gradient(to right, #30d5c8 50% , white);
+    background: linear-gradient(to left , #30d5c8  50%, white);
+    border-radius: 20px;
+}
+li a
+{
+    color: darkmagenta;
+    font-size: x-large;
+}
+article
+{
+    margin-top: 2vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+    font-size: large;
+}
+#Egitim-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#EAL-SAU
+{
+    width: 20vw;
+    height: auto;
+    border: 2px solid darkmagenta;
+}
+#EAL-SAU-div
+{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.img-comment
+{
+    text-align: justify;
+    width: 20vw;
+    height: auto;
+}
+
+

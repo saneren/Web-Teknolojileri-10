@@ -1,0 +1,53 @@
+
+header
+{
+    font-size: large;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: darkred;
+}
+#general-container
+{
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #8dd0ff 100%);
+    padding-bottom: 3vw;
+}
+.general-paragraph-header
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+#general-paragraph
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+#satranc
+{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.footballers
+{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: saddlebrown;
+}
+.datas
+{
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: justify;
+}
+.datas li
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.5vw 0 0 0.5vw;
+    column-gap: 0.5px;
+    color:darkviolet;
+}

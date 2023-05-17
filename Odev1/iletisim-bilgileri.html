@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iletisim.js">
+    <title>İletişim Bilgileri</title>
+</head>
+<body>
+    <div>İsim:</div>
+    <div id="isim"></div>
+    <br>
+    <div>Email:</div>
+    <div id="emailb"></div>
+    <br>
+    <div>şifre:</div>
+    <div id="şifreb"></div>
+    <br>
+    <div>Sifre Koruma1:</div>
+    <div id="programlama"></div>
+    <br>
+    <div>Sifre Koruma2:</div>
+    <div id="renk"></div>
+    <br>
+    <div>Sifre Koruma3:</div>
+    <div id="seçenek"></div>
+    <br>
+    <div>Açıklama:</div>
+    <div id="açıklama"></div>
+    <br>
+    <script>
+        document.getElementById("isim").innerHTML = localStorage.getItem("txtValue");
+        document.getElementById("emailb").innerHTML = localStorage.getItem("txtValue2");
+        document.getElementById("şifreb").innerHTML = localStorage.getItem("txtValue3");
+        document.getElementById("programlama").innerHTML = localStorage.getItem("txtValue4");
+        document.getElementById("renk").innerHTML = localStorage.getItem("txtValue5");
+        document.getElementById("seçenek").innerHTML = localStorage.getItem("txtValue6");
+        document.getElementById("açıklama").innerHTML = localStorage.getItem("txtValue7");
+
+    </script>
+</body>
+
+</html>
